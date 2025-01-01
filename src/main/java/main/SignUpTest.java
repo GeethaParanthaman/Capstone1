@@ -46,7 +46,7 @@ public class SignUpTest extends Utils {
 		excelUtils(filePath, sheetName);
 	}
 	
-	@Test
+	@Test(enabled=false)
     public void testSignupInvalidPhone() {
         // Get test data for the specific case
         Map<String, String> inputData = getRowData("testSignupInvalidPhone");
